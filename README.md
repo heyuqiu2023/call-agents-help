@@ -1,8 +1,10 @@
 # Call Agents Help
 
-**An open-source OpenClaw skill that lets your AI summon other AI bots into group chats for multi-agent discussions.**
+> **Let your AI summon minions!** / **让你的 AI 召唤小弟！**
 
-**一个开源的 OpenClaw 技能，让你的 AI 在群聊中召唤其他 AI 机器人进行多智能体讨论。**
+An open-source OpenClaw skill that lets your AI summon other AI bots into group chats for multi-agent discussions.
+
+一个开源的 OpenClaw 技能，让你的 AI 在群聊中召唤其他 AI 机器人进行多智能体讨论。
 
 ---
 
@@ -225,6 +227,31 @@ This will print the response to stdout without sending to Telegram. Useful for t
 - Telegram bots cannot see each other's messages — this is a platform limitation, which is why OpenClaw orchestrates everything / Telegram bot 之间无法互相看到消息——这是平台限制，所以由 OpenClaw 统一调度
 - Context is managed by OpenClaw per-call, not persisted across sessions / 上下文由 OpenClaw 每次调用时传入，不跨会话保存
 - Default max 10 discussion rounds to avoid runaway conversations / 默认最多 10 轮讨论，避免无限对话
+
+## Roadmap / 路线图
+
+This is v1 — it works, but there's room to grow. Upcoming improvements may include:
+
+这是 v1 版本——能用，但还有优化空间。后续可能的改进方向：
+
+- Smarter context management (auto-summarize long discussions) / 更智能的上下文管理（自动总结长讨论）
+- Support for more AI providers out of the box / 开箱支持更多 AI 提供商
+- Multi-platform support (Discord, Slack, etc.) / 多平台支持（Discord、Slack 等）
+- Preset persona packs / 预设人设包
+
+**Contributions welcome!** Feel free to fork this repo and build your own optimized version. If you come up with something cool, open a PR or share it with the community.
+
+**欢迎贡献！** 随时 fork 这个仓库，做你自己的优化版本。如果你搞出了什么好玩的，欢迎提 PR 或者分享给社区。
+
+## Community / 社区
+
+Having trouble deploying or using this skill? Join our WeChat group for help and discussion:
+
+部署或使用中遇到问题？加微信群交流：
+
+<p align="center">
+  <img src="assets/WechatIMG2106.jpg" width="300" alt="WeChat Group QR Code / 微信群二维码" />
+</p>
 
 ## License / 许可
 
